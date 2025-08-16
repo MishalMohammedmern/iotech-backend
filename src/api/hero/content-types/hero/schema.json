@@ -1,5 +1,5 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "heroes",
   "info": {
     "singularName": "hero",
@@ -29,7 +29,7 @@
     },
     "sliders": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "allowedTypes": [
         "images",
         "files",

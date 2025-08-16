@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "team_lists",
+  "info": {
+    "singularName": "team-list",
+    "pluralName": "team-lists",
+    "displayName": "teamList"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "email": {
+      "type": "email"
+    },
+    "mobile": {
+      "type": "integer"
+    },
+    "whatsapp": {
+      "type": "integer"
+    }
+  }
+}
