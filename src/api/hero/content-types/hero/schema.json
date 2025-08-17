@@ -14,9 +14,6 @@
     "title": {
       "type": "string"
     },
-    "description": {
-      "type": "blocks"
-    },
     "person_img": {
       "type": "media",
       "multiple": false,
@@ -36,6 +33,15 @@
         "videos",
         "audios"
       ]
+    },
+    "ar_title": {
+      "type": "string"
+    },
+    "ar_description": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }

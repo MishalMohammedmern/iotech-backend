@@ -31,10 +31,13 @@
       "type": "email"
     },
     "mobile": {
-      "type": "integer"
+      "type": "biginteger"
     },
     "whatsapp": {
-      "type": "integer"
+      "type": "biginteger"
+    },
+    "ar_name": {
+      "type": "string"
     }
   }
 }

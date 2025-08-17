@@ -27,8 +27,11 @@
         "audios"
       ]
     },
-    "review": {
-      "type": "richtext"
+    "ar_name": {
+      "type": "string"
+    },
+    "reviews": {
+      "type": "text"
     }
   }
 }
