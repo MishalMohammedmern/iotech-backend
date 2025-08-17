@@ -385,6 +385,7 @@ export interface ApiClientClient extends Struct.CollectionTypeSchema {
   };
   attributes: {
     ar_name: Schema.Attribute.String;
+    ar_review: Schema.Attribute.Text;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -398,7 +399,7 @@ export interface ApiClientClient extends Struct.CollectionTypeSchema {
     name: Schema.Attribute.String;
     position: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
-    reviews: Schema.Attribute.Text;
+    review: Schema.Attribute.Text;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

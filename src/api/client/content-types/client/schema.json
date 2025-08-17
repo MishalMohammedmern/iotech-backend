@@ -30,7 +30,10 @@
     "ar_name": {
       "type": "string"
     },
-    "reviews": {
+    "review": {
+      "type": "text"
+    },
+    "ar_review": {
       "type": "text"
     }
   }
