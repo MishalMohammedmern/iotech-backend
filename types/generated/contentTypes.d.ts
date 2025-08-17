@@ -458,7 +458,7 @@ export interface ApiSubscriberSubscriber extends Struct.CollectionTypeSchema {
       'api::subscriber.subscriber'
     > &
       Schema.Attribute.Private;
-    mail: Schema.Attribute.String;
+    mail: Schema.Attribute.String & Schema.Attribute.Unique;
     publishedAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &

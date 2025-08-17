@@ -12,7 +12,8 @@
   "pluginOptions": {},
   "attributes": {
     "mail": {
-      "type": "string"
+      "type": "string",
+      "unique": true
     }
   }
 }
